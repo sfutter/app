@@ -1,6 +1,8 @@
 App::Application.routes.draw do
   
 
+  resources :users
+
   resources :wires
 
   root to: "welcome#index"
